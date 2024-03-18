@@ -29,6 +29,7 @@ results_array = parsed_gmaps_data.fetch("results")
 
 first_result_hash = results_array.at(0)
 
+
 geometry_hash = first_result_hash.fetch("geometry")
 
 location_hash = geometry_hash.fetch("location")
